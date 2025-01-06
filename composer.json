@@ -1,0 +1,22 @@
+{
+  "name": "amarkhay/php-traceroute",
+  "description": "Toy traceroute in PHP",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Amarkhay\\Traceroute\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Andrew Markhai",
+      "email": "buk2018irinam@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "symfony/console": "^7.2",
+    "ext-sockets": "*"
+  }
+}
